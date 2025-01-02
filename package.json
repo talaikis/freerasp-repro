@@ -6,13 +6,16 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "lint": "eslint .",
+    "clean": "node ./scripts/clean.js",
     "start": "react-native start",
     "test": "jest"
   },
   "dependencies": {
+    "freerasp-react-native": "^3.13.0",
     "react": "18.3.1",
-     "freerasp-react-native": "3.13.0",
-    "react-native": "0.76.5"
+    "react-native": "0.76.5",
+    "rimraf": "5.0.1",
+    "shelljs": "0.8.5"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
@@ -36,5 +39,6 @@
   },
   "engines": {
     "node": ">=18"
-  }
+  },
+  "packageManager": "yarn@1.22.22+sha1.ac34549e6aa8e7ead463a7407e1c7390f61a6610"
 }
